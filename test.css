@@ -278,6 +278,11 @@ input[type="checkbox"] {
 .photo-center{
     margin-left: 70px;
 }
+
+.news{
+    display: grid;
+}
+
 /* Social Icons */
 .social-name h3 {
     font-size: 22px;
