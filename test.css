@@ -40,6 +40,10 @@ html, body {
     height: 100%;
 }
 
+#header-eng:hover{
+    cursor: pointer;
+}
+
 .left-col, .right-col {
     width: calc(50vw - 5px);
 }
