@@ -275,7 +275,10 @@ input[type="checkbox"] {
     width: 500px;
 }
 
-/* Social Icons - Footer */
+.photo-center{
+    margin-left: 70px;
+}
+/* Social Icons */
 .social-name h3 {
     font-size: 22px;
     font-style: italic;
