@@ -1,0 +1,245 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    </meta>
+    <link rel="stylesheet" href="test.css">
+    <script src="test.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<!--header-->
+
+<body onload="initiate()">
+    <div class="container">
+        <div class="d-flex header mb-4">
+            <img src="./assets/phw.png" class="small-logo" style="height: 26px;">
+            <span><strong>ΤΗΛΕΦΩΝΙΚΕΣ ΠΑΡΑΓΓΕΛΙΕΣ:210 277 9400</strong></span>
+            <span class="filler"></span>
+
+            <a class="header-menu-item" href="catalog.html">ΚΑΤΑΛΟΓΟΙ</a>
+            <a class="header-menu-item" href="services.html">ΥΠΗΡΕΣΙΕΣ</a>
+            <a class="header-menu-item" href="company.html">ΕΤΑΙΡΕΙΑ</a>
+            <a class="header-menu-item" href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+
+
+            <img id="header-eng" src="./assets/eng.png" />
+            <img class="header-image" src="./assets/euro.png" />
+            <img class="header-image" src="./assets/espa.png" />
+        </div>
+        <div class="d-flex height-50 mb-4">
+            <img src="./assets/i9.png" />
+            <span class="filler"></span>
+            <div class="d-flex mt-2 mb-2">
+                <div class="margin-30">
+                    <input type="text" class="searchbox" placeholder="αναζήτηση προϊόντων..." />
+                    <button class="btn" type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <div class="flex-row right-line">
+                    <div><img src="./assets/user.png" /></div>
+                    <div class="flex-column smaller-size">
+                        <div>
+                            <a href="login.hmtl">ΕΙΣΟΔΟΣ</a>
+                        </div>
+                        <div>
+                            <a>Ο λογαριασμός μου</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/basket.png" class="basket" />
+            </div>
+        </div>
+        <div class="d-flex ">
+            <button type="button" class="btn btn-success productbtn mr-1">ΠΡΟΪΟΝΤΑ<i class="fa fa-angle-down"
+                    aria-hidden="true"></i></button>
+            <span class="filler"></span>
+            <a class="header-menu-item" href="newproducts.html">ΝΕΑ ΠΡΟΪΟΝΤΑ</a>
+            <a class="header-menu-item" href="lifestyle.html">LIFESTYLE EXPERIENCE</a>
+            <a class="header-menu-item" href="greenchoice.html">GREENER CHOICE</a>
+            <a class="header-menu-item" href="best.html">BEST SELLERS</a>
+        </div>
+        <br>
+        <img src="./assets/maps.png" class="img-fluid" />
+
+        <div class="contact">
+            <!--contact_info-->
+            <div class="contact-info">
+                <form>
+                    <h4><strong>ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ </strong></h4>
+                    <div class="first-info">
+                        <div>
+                            <img src="./assets/loc.png" style="margin-top: 10px;" class="small-logo">
+                        </div>
+                        <div>
+                            <a>Λαχανά 2, Νέα Φιλαδέλφεια</a>
+                            <a>14342, ΑΤΤΙΚΗ</a>
+                        </div>
+                    </div>
+                    <a class="info"><img src="./assets/ml.png" class="small-logo" />sales@unitedpromotions.gr</a>
+                    <a class="info"><img src="./assets/phw.png" class="small-logo" />210 277 9400</a>
+                </form>
+            </div>
+            <!--contact form-->
+            <div class="contact-form">
+                <form>
+                    <!--FNAME-->
+                    <div class="form-group label-floating col-3">
+                        <label for="fname">ΟΝΟΜΑ</label>
+                        <input type="text" id="fname" name="firstname">
+                    </div>
+                    <!--LNAME-->
+                    <div class="form-group label-floating col-1">
+                        <label for="lname">ΕΠΙΘΕΤΟ</label>
+                        <input type="text" id="lname" name="lastname">
+                    </div>
+                    <!--EMAIL-->
+                    <div class="form-group label-floating col-2">
+                        <label for="email">EMAIL</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <!--PHONE-->
+                    <div class="form-group label-floating col-1">
+                        <label for="phoneno">ΤΗΛΕΦΩΝΟ ΕΠΙΚΟΙΝΩΝΙΑΣ</label>
+                        <input type="text" id="phoneno" name="phoneno">
+                    </div>
+                    <!--MESSAGE-->
+                    <div class="form-group label-floating col-1">
+                        <label for="message">MHNYMA</label>
+                        <textarea id="message" name="message" rows="5"></textarea>
+                    </div>
+                    <!--CheckBox-->
+                    <div class="terms">
+                        <input type="checkbox" id="terms" name="terms" value="terms">
+                        <label for="terms" style="padding-right: 25px;">Συμφωνώ με τους όρους χρήσης</label>
+                        <button type="button" class="btn btn-success productbtn">ΑΠΟΣΤΟΛΗ</button>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+    <!--footer-->
+    <section class="footer row padding-20">
+        <div class="col">
+            <h4>ΚΑΤΗΓΟΡΙΕΣ</h4>
+            <a class="footer-link">
+                Είδη Γραφής
+            </a>
+            <a class="footer-link">
+                Κούπες - Θερμός & Παγούρια </a>
+            <a class="footer-link">
+                Είδη Γραφείου
+            </a>
+            <a class="footer-link">
+                Κουζίνα & Σπίτι
+            </a>
+            <a class="footer-link">
+                Εργαλεία
+            </a>
+            <a class="footer-link">
+                Είδη Ταξιδίου
+            </a>
+            <a class="footer-link">
+                Τεχνολογία
+            </a>
+            <a class="footer-link">
+                Είδη Ένδυσης
+            </a>
+            <a class="footer-link">
+                Φροντίδα
+            </a>
+            <a class="footer-link">
+                Ψυχαγωγία & Αθλητισμός
+            </a>
+            <a class="footer-link">
+                Παιδικά Είδη
+            </a>
+            <a class="footer-link">
+                Αγαπημένα Θέματα
+            </a>
+        </div>
+        <div class="col">
+            <h4>ΧΡΗΣΙΜΕΣ ΣΕΛΙΔΕΣ</h4>
+            <a class="footer-link">
+                Vivamus vestibulum
+            </a>
+            <a class="footer-link">
+                Praesent placerat
+
+            </a>
+            <a class="footer-link">
+                Fusce
+            </a>
+            <a class="footer-link">
+                Integer vitae
+            </a>
+            <a class="footer-link">
+                Vestibulum
+            </a>
+            <a class="footer-link">
+                Commodo felis
+            </a>
+        </div>
+        <div class="col">
+            <h4>ΧΡΗΣΙΜΕΣ ΣΕΛΙΔΕΣ</h4>
+            <a class="footer-link">
+                Vivamus vestibulum
+            </a>
+            <a class="footer-link">
+                Praesent placerat
+            </a>
+            <a class="footer-link">
+                Fusce
+            </a>
+            <a class="footer-link">
+                Integer vitae
+            </a>
+            <a class="footer-link">
+                Vestibulum
+            </a>
+            <a class="footer-link">
+                Commodo felis
+            </a>
+        </div>
+        <div class="col">
+            <h4>ΤΗΛΕΦΩΝΙΚΕΣ ΠΑΡΑΓΓΕΛΙΕΣ</h4>
+            <div class="row margin-bottom-50">
+                <div class="margin-right-20">
+                    <img src="./assets/phone.png" />
+                </div>
+                <div><span class="large-size">210 977 4200</span></div>
+            </div>
+            <h2><span class="large-size">NEWSLETTER</span></h2>
+            <p class="footer-link">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+                Maecenas varius tortor nibh, sit amet tempo
+            </p>
+        </div>
+    </section>
+    <div style="padding-right:30px;padding-left:30px;"
+        class="bottom-footer d-flex justify-content-between align-items-center ">
+        <div>
+            <img src="./assets/i9b.png" />
+        </div>
+        <div>
+            <img src="./assets/ftr1.png" />
+
+            <img src="./assets/ftr2.png" />
+
+            <img src="./assets/ftr3.png" />
+
+        </div>
+        <div>
+            <img src="./assets/bar.png" />
+        </div>
+    </div>
+    <section style="padding-right:30px;padding-left:30px;" class="footer d-flex justify-content-between padding-20">
+        <span class="footer-link">COPYRIGHT © 2020 UNITED PROMOTIONS</span>
+
+        <span class="footer-link">CREATED WITH ♥ BY DARKPONY</span>
+    </section>
+</body>
+
+</html>
