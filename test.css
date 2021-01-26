@@ -1,0 +1,275 @@
+html, body {
+    font-family: Roboto, Open-Sans, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.filler {
+    flex: 1 1 auto;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-image {
+    height: 100%;
+}
+
+.header-menu-item {
+    margin-right: 20px;
+}
+
+.header {
+    height: 18.5px;
+}
+
+#header-eng {
+    margin-right: 10px;
+    height: 75%;
+}
+
+.left-col, .right-col {
+    width: calc(50vw - 5px);
+}
+
+.mid-col {
+    width: 10px;
+}
+
+.image-gallery {
+    height: 50vw;
+}
+
+#i1, #i4 {
+    height: calc(40% - 5px);
+}
+
+#i2, #i3 {
+    height: calc(60% - 5px);
+}
+
+.margin-10 {
+    margin-bottom: 10px;
+}
+
+.gallery-img {
+    height: 100%;
+    width: 100%;
+}
+
+.searchbox {
+    border-radius: 11.8px;
+    border: solid 0.5px #c0c0c0;
+    width: 30vw;
+    /* padding-right: 50%; */
+}
+
+.line {
+    width: 0.5px;
+    height: 21px;
+    border: solid 0.5px #d9d9d9;
+}
+
+.productbtn {
+    cursor: pointer;
+    /* width: 101.5px; */
+    border-radius: 11.8px !important;
+    /* background-color: #009858; */
+    /* color: white; */
+}
+
+.basket {
+    width: 30px;
+    height: 30px;
+}
+
+a {
+    color: inherit;
+    display: block;
+}
+
+.btntxt {
+    margin: 5px;
+}
+
+.contain-img {
+    height: 100%;
+    width: 100%;
+}
+
+.right-line {
+    padding-right: 5px;
+    border-right: 1px solid gray;
+}
+
+.height-50 {
+    height: 50px;
+}
+
+.smaller-size {
+    font-size: 8px;
+}
+
+.margin-30 {
+    margin-right: 30px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.medium-size {
+    font-size: 12px;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.min-width-300 {
+    min-width: 300px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px grey solid;
+    width: 20%;
+}
+
+.card-img {
+    width: 80%;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.card:hover {
+    box-shadow: 1px 8px 20px grey;
+    -webkit-transition: box-shadow .6s ease-in;
+}
+
+.min-width-100 {
+    width: 100px;
+}
+
+.margin-30 {
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #206547;
+    color: #eee;
+}
+
+.footer-link {
+    line-height: 30px;
+    color: #bbb !important;
+    display: block;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.large-size {
+    font-size: 22px;
+}
+
+.bottom-footer {
+    min-height: 100px;
+}
+
+.grid {
+    width: 100%;
+}
+
+/* ΜΙΧΑΛΗΣ */
+
+.contact {
+    display: flex;
+}
+
+.contact-form {
+    margin-left: 50px;
+}
+
+.first-info {
+    display: flex;
+}
+
+.info {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.small-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+form {
+    max-width: 420px;
+    margin: 30px auto;
+    background: white;
+    text-align: left;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+label {
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+input {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid#ddd;
+    color: #555;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: 16px;
+    margin: 0 10px 0 0;
+    position: relative;
+    top: 6px;
+}
+
+.terms{
+    padding-left: 15px;
+    display: flex;
+    width: 500px;
+}
